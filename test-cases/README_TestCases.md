@@ -1,48 +1,52 @@
 # Test Case Documentation
 
-## File Included
-
-* LiquidPay_Full_TestSuite_50plus.xlsx
+## File
+- LiquidPay_Full_TestSuite_BDD.xlsx
 
 ## Structure
+The workbook is organized by module:
 
-Each module is separated into sheets:
+- Registration_Login
+- Wallet_Account
+- QR_Payment
+- Transfer_Remittance
+- History_Disputes
+- Security_Compliance
+- End_to_End
+- Summary
 
-* Registration_Login
-* Wallet_Account
-* QR_Payment
-* Transfer_Remittance
-* History_Disputes
-* Security_Compliance
-* End_to_End
+## Main Columns
+Each module sheet includes:
 
-## Columns
+- TC_ID
+- Module
+- Scenario
+- Acceptance Criteria (BDD)
+- Preconditions
+- Steps
+- Test Data
+- Expected Result
+- Priority
+- Type
+- Automation Candidate
+- Status
+- Notes
 
-* TC_ID
-* Module
-* Scenario
-* Preconditions
-* Steps
-* Test Data
-* Expected Result
-* Priority
-* Type
-* Automation Candidate
-* Status
-* Notes
+## BDD Format
+The workbook includes an Acceptance Criteria column written in:
 
-## Execution
+- Given
+- When
+- Then
 
-Update:
+This helps align testing with product acceptance expectations and makes scenarios easier to review with product owners, developers, and stakeholders.
 
-* Status (Pass / Fail / Blocked / Not Run)
-* Defect ID
-* Evidence
+## Execution Use
+Update the workbook with:
+- Status
+- Notes
+- Defect references
+- Evidence links, if needed
 
 ## Summary
-
-Auto-calculates:
-
-* Total test cases
-* Pass rate
-* Execution status distribution
+The Summary sheet provides a quick view of execution totals and test progress.
